@@ -13,6 +13,8 @@ The system continuously polls an inbox (mock data), classifies each email using 
 Langgraph was used in this project for workflow orchestration, it allows multiagents development, looping, conditions for building complex automation pipelines. Knowledge of these architectures
 would be the building blocks of future robust automations that's why it was used to power this agent.
 
+This project was tested on windows based platform, so docker desktop would be required, just open it and run the build command, everthing will work.
+
 # How the AI works
 
 Classification uses a **two-stage hybrid approach:**

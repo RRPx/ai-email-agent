@@ -1,6 +1,5 @@
 from langgraph.graph import StateGraph, END
 from agent.nodes import fetch_emails, process_emails, summarize
-from IPython.display import display, Image
 from typing import TypedDict, List
 
 

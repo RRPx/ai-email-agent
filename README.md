@@ -10,6 +10,9 @@ Not all these are touched but the track exerts promising aspects for even bigger
 
 The system continuously polls an inbox (mock data), classifies each email using a hybrid AI approach (rule-based + Groq LLM), and surfaces only the important ones on a clean dashboard. Non-important emails are silently ignored.
 
+Langgraph was used in this project for workflow orchestration, it allows multiagents development, looping, conditions for building complex automation pipelines. Knowledge of these architectures
+would be the building blocks of future robust automations that's why it was used to power this agent.
+
 # How the AI works
 
 Classification uses a **two-stage hybrid approach:**
@@ -180,7 +183,7 @@ docker compose up --build
 - Dashboard: https://frontend-email-agent-production.up.railway.app/
 - API: https://backend-email-agent-production.up.railway.app
 
-## Limitations
+## Limitations & Future scopes
 
 - Mock mode only simulates email polling — no real inbox connection for now, left for future scope
 - Groq free tier has rate limits — processing large batches may be throttled
@@ -188,4 +191,5 @@ docker compose up --build
 - Dashboard auto-refreshes every 30 seconds — not a true real-time websocket connection
 - Email body is truncated to 1000 characters for classification (so that free tokens don't get run out shortly)
 - Polling should be performed automatically without any intervals so that agent and ui stay synched at the same time
+- Langsmith could be used for workflow monitoring
 

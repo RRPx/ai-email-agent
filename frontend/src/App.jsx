@@ -48,7 +48,9 @@ export default function App() {
   const runAgent = async () => {
     setRunning(true);
     try {
-      await axios.post(`${API_URL}/run`);
+      await axios.post(
+        `https://backend-email-agent-production.up.railway.app/run`,
+      );
       await fetchEmails(true);
     } catch {
       setError("Failed to run agent.");

@@ -28,7 +28,7 @@ Classification uses a **two-stage hybrid approach:**
   - `priority` — HIGH, MEDIUM, or LOW
   - `category` — PAYMENT_ISSUE, SERVER_DOWN, CLIENT_COMPLAINT, etc.
   - `reason` — one clear sentence explaining the decision
-  - 
+    
   **What gets flagged as important:**
 - Client complaints or urgent customer requests
 - Payment failures or billing issues

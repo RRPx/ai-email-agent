@@ -1,0 +1,18 @@
+# env files
+.env
+backend/.env
+frontend/.env
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/graph.png
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Docker
+pgdata/

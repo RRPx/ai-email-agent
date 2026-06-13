@@ -1,0 +1,65 @@
+[
+  {
+    "email_id": "mock_001",
+    "sender": "john.client@company.com",
+    "subject": "Urgent: Payment failed for invoice #1042",
+    "body": "Hi, our payment for invoice #1042 failed this morning. We need this resolved immediately or we will have to escalate.",
+    "received_at": "2026-06-11T08:00:00"
+  },
+  {
+    "email_id": "mock_002",
+    "sender": "noreply@netflix.com",
+    "subject": "Your Netflix subscription has been renewed",
+    "body": "Your monthly subscription of $15.99 has been successfully charged. Thank you for being a Netflix member.",
+    "received_at": "2026-06-11T08:05:00"
+  },
+  {
+    "email_id": "mock_003",
+    "sender": "facts@journal.com",
+    "subject": "Server has crashed!! Please fix it ASAP",
+    "body": "we need to set a backup plan immediately",
+    "received_at": "2026-06-11T08:05:00"
+  },
+  {
+    "email_id": "mock_003",
+    "sender": "facts@journal.com",
+    "subject": "Server has crashed!! Please fix it ASAP",
+    "body": "we need to set a backup plan immediately",
+    "received_at": "2026-06-11T08:05:00"
+  },
+  {
+    "email_id": "mock_004",
+    "sender": "dd@pharma.com",
+    "subject": "How do we cancel the subscription? I'm losing money",
+    "body": "we need to set a backup plan immediately",
+    "received_at": "2026-06-11T08:05:00"
+  },
+  {
+    "email_id": "mock_003",
+    "sender": "facts@journal.com",
+    "subject": "Server has crashed!! Please fix it ASAP",
+    "body": "we need to set a backup plan immediately",
+    "received_at": "2026-06-11T08:05:00"
+  },
+  {
+    "email_id": "mock_005",
+    "sender": "people@amm.com",
+    "subject": "page screen is showing 500, can't see anything!!",
+    "body": "users are complaining about the 500 error on the website, please fix it immediately",
+    "received_at": "2026-06-11T08:05:00"
+  },
+  {
+    "email_id": "mock_006",
+    "sender": "lahar@dodgecoin.com",
+    "subject": "Client is complaining about lazy ui loading!! hampering user retention. Need fix",
+    "body": "UI is lagging in multiple pages",
+    "received_at": "2026-06-11T08:05:00"
+  },
+  {
+    "email_id": "mock_007",
+    "sender": "mm@pectar.com",
+    "subject": "Client XX wants to know about more payment options urgentsly!!",
+    "body": "Client wants to change his payment methods",
+    "received_at": "2026-06-11T08:05:00"
+  }
+]

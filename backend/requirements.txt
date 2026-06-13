@@ -1,0 +1,8 @@
+langgraph
+langchain-groq
+langchain-core
+psycopg2-binary
+fastapi
+uvicorn
+python-dotenv
+pydantic

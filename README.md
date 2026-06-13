@@ -1,6 +1,6 @@
 # Overfiew
 
-Building automation pipelines which of course is a trending buzzword in development community has taken the market by storm. Non-coders who don't know codes platforms like n8n, make has enabled them to automate their day to day
+Building automation pipelines which of course is a trending buzzword in development community has taken the market by storm. Non-coders who don't know codes platforms like n8n, make have enabled them to automate their day to day
 tasks as well without much of a hassle. Automation is heavily depended upon large language models or in short LLMs, over the top it may seem like just use an openai api, call a model, write something to them and get what
 is wanted, that's true. This is basically how things look in a birds eye view. 
 

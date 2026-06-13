@@ -177,7 +177,7 @@ docker compose up --build
 
 ## Live Demo
 
-- Dashboard: https://your-frontend-url.up.railway.app
+- Dashboard: https://frontend-email-agent-production.up.railway.app/
 - API: https://backend-email-agent-production.up.railway.app
 
 ## Limitations

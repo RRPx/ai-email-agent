@@ -10,8 +10,7 @@ Not all these are touched but the track exerts promising aspects for even bigger
 
 The system continuously polls an inbox (mock data), classifies each email using a hybrid AI approach (rule-based + Groq LLM), and surfaces only the important ones on a clean dashboard. Non-important emails are silently ignored.
 
-Langgraph was used in this project for workflow orchestration, it allows multiagents development, looping, conditions for building complex automation pipelines. Knowledge of these architectures
-would be the building blocks of future robust automations that's why it was used to power this agent.
+Langgraph was used in this project for workflow orchestration, it allows multiagents development, looping, conditions for building as well as HITL (human in the loop) for complex automation pipelines. Knowledge of these architectures would be the building blocks of future robust automations that's why it was used to power this agent.
 
 This project was tested on windows based platform, so docker desktop would be required, just open it and run the build command, everthing will work.
 
@@ -46,7 +45,7 @@ Classification uses a **two-stage hybrid approach:**
 - Social media notifications
 
 ## How langgraph works
-Langgraph is a workflow styles automation platform developed by langchain. Workflow stars by a start node and ends with an end node, nodes are nothing but function, in this agent 3 extra nodes were used, nodes are connected by edges, edges are nothing but an indication of the nodes to move step step by step. Langgraph maintains a root state that gets passed to each nodes, nodes can mutate them for final result.
+Langgraph is a workflow style automation platform developed by langchain. Workflow stars by a start node and ends with an end node, nodes are nothing but function, in this agent 3 extra nodes were used, nodes are connected by edges, edges are nothing but an indication of the nodes to move step step by step. Langgraph maintains a root state that gets passed to each nodes, nodes can mutate them for final result.
 
 ## How the Dashboard Works
 - Polls the backend every 30 seconds for new important emails

@@ -1,4 +1,4 @@
-# Overfiew
+# Overview
 
 Building automation pipelines which of course is a trending buzzword in development community has taken the market by storm. Non-coders who don't know codes platforms like n8n, make have enabled them to automate their day to day
 tasks as well without much of a hassle. Automation is heavily depended upon large language models or in short LLMs, over the top it may seem like just use an openai api, call a model, write something to them and get what
@@ -42,6 +42,9 @@ Classification uses a **two-stage hybrid approach:**
 - Spam, promotions, marketing emails
 - Newsletters and automated digests
 - Social media notifications
+
+## How langgraph works
+Langgraph is a workflow styles automation platform developed by langchain. Workflow stars by a start node and ends with an end node, nodes are nothing but function, in this agent 3 extra nodes were used, nodes are connected by edges, edges are nothing but an indication of the nodes to move step step by step. Langgraph maintains a root state that gets passed to each nodes, nodes can mutate them for final result.
 
 ## How the Dashboard Works
 - Polls the backend every 30 seconds for new important emails

@@ -169,6 +169,7 @@ npm run dev
 
 ## How to run the full stack (all at once)
 ```bash
+(stay at the root folder after cloning)
 cp .env.example .env
 # Add your GROQ_API_KEY to .env
 docker compose up --build

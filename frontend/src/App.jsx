@@ -16,7 +16,9 @@ export default function App() {
 
   const fetchEmails = async (isManual = false) => {
     try {
-      const res = await axios.get(`${API_URL}/emails`);
+      const res = await axios.get(
+        `https://backend-email-agent-production.up.railway.app/emails`,
+      );
       const fetched = res.data.emails;
 
       if (isManual) {
